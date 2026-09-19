@@ -1,14 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.body{
+body{
     margin: 0;
     padding: 0;
-    transition: all;
+    animation: show 0s  6s 1 ease-in-out forwards ;
     
-    transition-duration:300s;
-    animation-duration: 300s;
+
 }
+html{
+  scroll-behavior: smooth;
+}
+    @keyframes show {
+       from {
+         transform:translateX(-100%);
+       }
+       to{
+        transform :translateX(0%);
+       }
+    }
 .google-sans-flex-light {
   font-family: "Google Sans Flex", sans-serif;
   font-optical-sizing: auto;

@@ -11,22 +11,22 @@
 
 </head>
 
-<body>
-    <nav class=" font-bold flex justify-around gap-4  min-w-full p-4 bg-[#F7F7EB]">
+<body class="relative">
+    <nav class=" font-bold flex justify-around gap-4  min-w-full p-4 bg-[#F7F7EB] ">
         <h2 class="google-sans-flex-bold text-2xl font-bold font-serif ">Dev Zain</h2>
         <ul class="google-sans-flex-semibold  flex gap-6 items-center text-sm font-bold ">
-            <li><a href="/">Home</a></li>
+            <li><a href="#home">Home</a></li>
             <li><a href="#experience">Experience</a></li>
-            <li><a href="/projects">Services</a></li>
-            <li><a href="/about">Blog</a></li>
-            <li><a href="/contact" class="google-sans-flex-light float-right w-full">Contact</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about" class="">About</a></li>
             <button
                 class="bg-[#247274] rounded-full px-6 py-3 text-white hover:bg-[#33bebe] shadow-xl shadow-white transition-all duration-200 hover:translate-x-1 google-sans-flex-normal ">Get
                 in Touch</button>
         </ul>
     </nav>
 
-    <main class="relative md:min-h-[50vh] min-w-full flex justify-around  ">
+    <main id="home" class="relative md:min-h-[50vh] min-w-full flex justify-around  ">
 
         <div class="w-[76%]  bg-[#EBEEE5]">
             <div class="p-16">
@@ -54,10 +54,10 @@
 
         </div>
     </main>
-    
+
     <section class=" min-w-full bg-[#F7F7EB] p-6 mb-8 flex flex-col gap-6">
         <!-- Featured Products -->
-        <div>
+        <div id="products">
             <h2 class="font-semibold font-serif text-2xl ml-8">Featured Projects</h2>
             <div class="min-w-full flex justify-center items-center gap-20 mt-12 ml-6">
                 <div class="flex flex-col min-h-[20vh] w-[300px]  rounded-2xl">
@@ -102,30 +102,277 @@
         </div>
 
         <hr class=" border-black border-6 mt-1">
-   <!-- Experience Div -->
+        <!-- Experience Div -->
         <div class="min-w-full" id="experience">
             <h2 class=" font-semibold font-serif text-2xl ml-8">Experience</h2>
             <div class="grid   grid-cols-3 grid-rows-1 w-full  min-w-full min-h-[30vh] gap-8 mt-4 p-4 px-8">
 
 
-                <div class=" rounded-[40px] p-6  bg-[#e7e7be] justify-center items-center flex flex-col gap-1    ">
+                <div
+                    class=" rounded-[40px] p-6  bg-[#247274] text-white justify-center items-center flex flex-col gap-1    ">
                     <h2 class="font-serif font-bold text-4xl text-center">2+ years</h2>
                     <p class="google-sans-flex-normal mt-2 text-center">Worked as a Full Stack Web Developer.</p>
                     <p class="google-sans-flex-light text-center">Started working on from 2023.</p>
                 </div>
-                <div class=" rounded-[40px] p-6  bg-[#e7e7be] justify-center items-center flex flex-col    gap-1    ">
+                <div
+                    class=" rounded-[40px] p-6  bg-[#247274] text-white justify-center items-center flex flex-col    gap-1    ">
                     <h2 class="font-serif font-bold text-4xl text-center">3+ SaaS Projects</h2>
                     <p class="google-sans-flex-normal mt-2 text-center">Developed Projects to gain more coding
                         experience.</p>
-                    <p class="google-sans-flex-light text-center"><b>Major Projects :</b>Trimify, HaNCHi Store
+                    <p class="google-sans-flex-light text-center"><b>Major Projects :</b>Trimify, Ecommerce Store
                         Publishing Soon</p>
                 </div>
-                <div class=" rounded-[40px] p-6  bg-[#e7e7be] justify-center items-center flex flex-col gap-1    ">
+                <div
+                    class=" rounded-[40px] p-6  bg-[#247274] text-white justify-center items-center flex flex-col gap-1    ">
                     <h2 class="font-serif font-bold text-4xl text-center ">Industry Experience</h2>
                     <p class="google-sans-flex-normal mt-2 text-center">Never Worked in an industry or team .</p>
                     <p class="google-sans-flex-light text-center">Now Looking forward to Work on industry level.</p>
                 </div>
 
+            </div>
+        </div>
+
+        <hr class=" border-black border-6 mt-1">
+        <!-- Services Section -->
+        <div class="min-w-full" id="services">
+            <h2 class=" font-semibold font-serif text-2xl ml-8">Services</h2>
+            <div class="grid   grid-cols-3 grid-rows-1 w-full  min-w-full min-h-[30vh] gap-8 mt-4 p-4 px-8">
+
+
+                <div
+                    class=" rounded-[40px] p-6  bg-[#247274] text-white justify-center items-center flex flex-col gap-1    ">
+                    <h2 class="font-serif font-bold text-2xl text-center">Develops Modern and Full Stack Web
+                        Applications</h2>
+                    <ul class="mt-1 grid grid-rows-1 grid-cols-4 items-center justify-start  ">
+                        <li class="list-disc">HTML5</li>
+                        <li class="list-disc">CSS</li>
+                        <li class="list-disc">Javascript</li>
+                        <li class="list-disc">Express JS</li>
+                        <li class="list-disc">Node.js</li>
+                        <li class="list-disc">React JS</li>
+                        <li class="list-disc">Next.js</li>
+                        <li class="list-disc">MERN Stack</li>
+                        <li class="list-disc">Bootstrap</li>
+                        <li class="list-disc">Apis</li>
+                        <li class="list-disc">Tailwind CSS</li>
+
+                    </ul>
+                </div>
+                <div
+                    class=" rounded-[40px] p-6  bg-[#247274] text-white justify-center items-center flex flex-col    gap-1    ">
+                    <h2 class="font-serif font-bold text-2xl text-center">Maintainance and Update of Web
+                        Design/Functionality</h2>
+                    <ul class="flex gap-1 flex-col justify-center items-center">
+                        <li class="google-sans-flex-normal mt-2 text-center list-disc">Provides monthly maintainance of
+                            web applications.</li>
+
+                        <li class="google-sans-flex-normal  text-start list-disc">Updates websites design and
+                            functionality.</li>
+                    </ul>
+                </div>
+                <div
+                    class=" rounded-[40px] p-6  bg-[#247274] text-white justify-center items-center flex flex-col gap-1    ">
+                    <h2 class="font-serif font-bold text-2xl text-center ">Debugging of Code</h2>
+                    <ul class="flex gap-1 flex-col justify-center items-center">
+                        <li class="google-sans-flex-normal mt-2 text-center list-disc">Debugs the web application.</li>
+
+                        <li class="google-sans-flex-normal  text-start list-disc">Removes the vulnerabilities in the
+                            application.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <hr class=" border-black border-6 mt-1">
+        <!-- Skills Section -->
+        <div class="min-w-full" id="skills">
+            <h2 class=" font-semibold font-serif text-2xl ml-8">Skills</h2>
+            <div class="min-w-full mt-16 flex justify-center ">
+                <div class="    min-w-[60%]  gap-1 bg-[#247274] p-8 rounded-xl shadow-xl">
+                    <h2 class="text-gray-50 font-serif font-bold text-5xl text-center  ">Rich in Skills</h2>
+
+                    <table class="mt-6 p-3 border min-w-full">
+                        <thead>
+                            <tr class="mt-3 border-b ">
+                                <th class="py-3 border">Skills</th>
+                                <th class="py-3 ">Experience</th>
+                                <th class="py-3 ">Beginner</th>
+                                <th class="py-3 ">Advanced</th>
+                                <th class="py-3 ">Expert</th>
+                            </tr>
+                        </thead>
+
+                        <tbody class="pt-3 text-gray-50">
+                            <tr>
+                                <td class="google-sans-flex-normal py-2 border text-center">HTML5</td
+                                    class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center">✅ </td class="text-center">
+                            </tr>
+
+                            <tr>
+                                <td class="google-sans-flex-normal py-2 border text-center">CSS</td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center">✅ </td class="text-center">
+                            </tr>
+                            <tr>
+                                <td class="google-sans-flex-normal py-2 border text-center">Javascript</td
+                                    class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center">✅ </td class="text-center">
+                            </tr>
+                            <tr>
+                                <td class="google-sans-flex-normal py-2 border text-center">Express JS</td
+                                    class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center">✅ </td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                            </tr>
+                            <tr>
+                                <td class="google-sans-flex-normal py-2 border text-center">Node JS</td
+                                    class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center">✅ </td class="text-center">
+                            </tr>
+                            <tr>
+                                <td class="google-sans-flex-normal py-2 border text-center">React JS</td
+                                    class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center">✅ </td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                            </tr>
+                            <tr>
+                                <td class="google-sans-flex-normal py-2 border text-center">Next.js</td
+                                    class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center">✅ </td class="text-center">
+                            </tr>
+                            <tr>
+                                <td class="google-sans-flex-normal py-2 border text-center">MongoDB</td
+                                    class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center">✅ </td class="text-center">
+                            </tr>
+                            <tr>
+                                <td class="google-sans-flex-normal py-2 border text-center">MERN Stack</td
+                                    class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center">✅ </td class="text-center">
+                            </tr>
+                            <tr>
+                                <td class="google-sans-flex-normal py-2 border text-center">Tailwind CSS</td
+                                    class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center">✅ </td class="text-center">
+                            </tr>
+                            <tr>
+                                <td class="google-sans-flex-normal py-2 border text-center">BootStrap</td
+                                    class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center">✅ </td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                            </tr>
+                            <tr>
+                                <td class="google-sans-flex-normal py-2 border text-center">Python</td
+                                    class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"> </td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center">✅</td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                            </tr>
+                            <tr>
+                                <td class="google-sans-flex-normal py-2 border text-center">Typescript</td
+                                    class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"> </td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center">✅</td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                            </tr>
+                            <tr>
+                                <td class="google-sans-flex-normal py-2 border text-center">API Integration</td
+                                    class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center"></td class="text-center">
+                                <td class="google-sans-flex-normal py-2 border text-center">✅ </td class="text-center">
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+
+        </div>
+        <hr class=" border-black border-6 mt-4">
+
+        <!-- About Section -->
+
+        <div class="min-w-full text-gray-50 my-4" id="about">
+            <h2 class=" font-semibold font-serif text-2xl ml-8 text-black">About me</h2>
+            <div class="grid   grid-cols-3 grid-rows-1 w-full  min-w-full min-h-[30vh] gap-4 mt-4 p-4 px-8">
+                <div class=" flex flex-col gap-4 bg-[#247274] rounded-xl p-4">
+                    <h2 class="google-sans-flex-semibold text-2xl text-gray-50 text-center">Personal Info</h2>
+                    <div class="flex justify-center items-center gap-12 ">
+                        <div class="w-[150px] h-[150px] rounded-full mb-4">
+                            <img src="./public/pic.jpeg" class="rounded-full">
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <h4 class="google-sans-flex-normal"><b><u> Name</u> : </b>Zain ul Abdeen</h4>
+                            <h4 class="google-sans-flex-normal"><b><u> Title</u> : </b>Full Stack Web Developer</h4>
+                            <h4 class="google-sans-flex-normal"><b><u> Age</u> : </b>18 years</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class=" flex flex-col gap-4 bg-[#247274] rounded-xl p-4">
+                    <h2 class="google-sans-flex-semibold text-2xl text-gray-50 text-center">Educational Info</h2>
+                    
+                        <div class="flex flex-col gap-1 justify-center">
+                            <h4 class="google-sans-flex-normal"><b><u> Current Role</u> : Student</b></h4>
+                            <h4 class="google-sans-flex-normal"><b><u> Education Level</u> : </b>Tertiary Education</h4>
+                            <h4 class="google-sans-flex-normal"><b><u> Degree</u> : </b>Bachelor of Science in Computer Science</h4>
+                            <h4 class="google-sans-flex-normal"><b><u> Enrollment Year</u> : </b>2026</h4>
+                            <h4 class="google-sans-flex-normal"><b><u> Institute</u> : </b>National University of Computer and Emerging Sciences (FAST)</h4>
+                        </div>
+                    </div>
+                <div class=" flex flex-col gap-4 bg-[#247274] rounded-xl p-4">
+                    <h2 class="google-sans-flex-semibold text-2xl text-gray-50 text-center">Location</h2>
+                     <div class="flex  justify-center items-center ">
+                    <h4 class="google-sans-flex-semibold  mt-5 text-3xl ">Islamabad, PAKISTAN</h4>
+                       </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Contact Section -->
+         <hr class=" border-black border-6 mt-4">
+
+                  <div class="min-w-full text-gray-50 my-4 " id="about">
+            <h2 class=" font-semibold font-serif text-2xl ml-8 text-black">Contact</h2>
+            <div class="min-w-full flex justify-center items-center my-3 mt-4">
+            <div class="   max-w-[60%]  bg-[#247274] gap-4  p-4 px-8 ">
+                        Email
+                </div>
             </div>
         </div>
     </section>
