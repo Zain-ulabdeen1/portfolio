@@ -4,6 +4,10 @@
 .body{
     margin: 0;
     padding: 0;
+    transition: all;
+    
+    transition-duration:300s;
+    animation-duration: 300s;
 }
 .google-sans-flex-light {
   font-family: "Google Sans Flex", sans-serif;
